@@ -1,0 +1,23 @@
+<html>
+	<head>
+		{% if title %}
+		<title>{{ title }} - {{ config.NAME }}</title>
+		{% else %}
+		<title>Welcome to {{ config.NAME }}!</title>
+		{% endif %}
+		<link rel="shortcut icon" href="{{ url_for("static", filename="favicon.ico") }}">
+		<link rel="stylesheet" href="{{ url_for("static", filename="css/main.css") }}">
+	</head>
+	<body>
+		<div>
+			{{ config.NAME }}
+			<a href="{{ url_for("index") }}">Home</a>
+		</div>
+		<hr>
+		{% block content %}{% endblock %}
+	</body>
+	<footer>
+		<hr>
+		<p>{{ config.NAME }}. Engine: pCarrotAAC</p>
+	</footer>
+</html>
