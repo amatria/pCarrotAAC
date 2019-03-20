@@ -18,7 +18,7 @@ Start by installing the python3-venv package, which will install the venv module
 ```
 sudo apt install python3-venv
 ```
-Next, let's clone the repository. Move into the directory after cloning is complete:
+Next, let's clone the repository. Move into the directory after the cloning is complete:
 ```
 git clone https://github.com/amatria/pCarrotAAC.git
 cd pCarrotAAC
