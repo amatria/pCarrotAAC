@@ -65,7 +65,7 @@ module = wsgi:app
 master = true
 processes = 5
 
-socket = myproject.sock
+socket = pcarrot.sock
 chmod-socket = 660
 vacuum = true
 
