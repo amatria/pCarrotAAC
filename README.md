@@ -27,7 +27,7 @@ Create a virtual environment to store your Flask project's Python requirements b
 ```
 python3.6 -m venv env
 ```
-This will install a local copy of Python and pip into a directory called myprojectenv within your project directory.
+This will install a local copy of Python and pip into a directory called env within your project directory.
 
 Before installing applications within the virtual environment, you need to activate it. Do so by typing:
 ```
