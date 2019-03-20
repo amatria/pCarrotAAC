@@ -55,7 +55,7 @@ deactivate
 ```
 You have tested that Flask is able to serve your application, but ultimately you will want something more robust for long-term usage. You can create a uWSGI configuration file with the relevant options for this.
 ```
-nano ~/pCarrotAAC/pcarrot.ini
+nano pcarrot.ini
 ```
 Now, paste these lines:
 ```
