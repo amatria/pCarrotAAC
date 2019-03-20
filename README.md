@@ -1,6 +1,9 @@
 # pCarrotAAC
 <brief description here pls :)>
 
+## Prerequisites
+* `mysql-server` up and running.
+
 ## Installation
 Our first step will be to install all of the pieces that we need from the Ubuntu repositories. We will install ufw, nginx and pip, the Python package manager, to manage our Python components.
 
