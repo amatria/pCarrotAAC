@@ -38,6 +38,7 @@ Your prompt will change to indicate that you are now operating within the virtua
 
 Now, let's install the requirements in our local instance of pip:
 ```
+pip install wheel
 pip install -r requirements.txt
 ```
 Next, let's add a rule to the UFW firewall to check that our application is running:
