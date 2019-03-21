@@ -1,5 +1,4 @@
 # pCarrotAAC
-<brief description here pls :)>
 
 ## Prerequisites
 * `mysql-server` up and running.
