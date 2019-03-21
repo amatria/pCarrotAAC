@@ -97,8 +97,8 @@ With that, our systemd service file is complete. Save and close it now.
 
 We can now start the uWSGI service we created and enable it so that it starts at boot:
 ```
-sudo systemctl start myproject
-sudo systemctl enable myproject
+sudo systemctl start pcarrot.service
+sudo systemctl enable pcarrot.service
 ```
 Our uWSGI application server should now be up and running, waiting for requests on the socket file in the project directory. Let's configure Nginx to pass web requests to that socket using the uwsgi protocol.
 
