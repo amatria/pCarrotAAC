@@ -10,7 +10,7 @@ Our first step will be to install all of the pieces that we need from the Ubuntu
 
 We will also get the Python development files necessary to build uWSGI.
 ```
-sudo apt update
+sudo apt update && sudo apt upgrade
 sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
 ```
 Next, we'll set up a virtual environment in order to isolate our Flask application from the other Python files on the system.
