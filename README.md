@@ -3,14 +3,16 @@
 
 ## Prerequisites
 * `mysql-server` up and running.
+* `nginx` installed.
+* `ufw`.
 
 ## Installation
-Our first step will be to install all of the pieces that we need from the Ubuntu repositories. We will install ufw, nginx and pip, the Python package manager, to manage our Python components.
+Our first step will be to install all of the pieces that we need from the Ubuntu repositories. We will pip, the Python package manager, to manage our Python components.
 
 We will also get the Python development files necessary to build uWSGI.
 ```
 sudo apt update
-sudo apt install ufw nginx python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
+sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
 ```
 Next, we'll set up a virtual environment in order to isolate our Flask application from the other Python files on the system.
 
